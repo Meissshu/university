@@ -1,0 +1,84 @@
+=======================================================
+Sun Dec 11 14:22:15 MSK 2016  - NEW SESSION
+
+=======================================================
+Sun Dec 11 14:22:36 MSK 2016  - NEW SESSION
+
+=======================================================
+Sun Dec 11 14:24:03 MSK 2016  - NEW SESSION
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:97 - Class was created
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:102 - Starting the app
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:104 - Main window initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:106 - Buttons initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:108 - Toolbar initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:110 - Tabs initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:112 - Tables initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:114 - Search initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:819 - Wide search was updated!
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:118 - Action and listeners initialization
+11-12-16 14:24:05 [INFO ] [main] StudentsMain:123 - Loading and registering JDBC driver for mySQL 
+
+=======================================================
+Sun Dec 11 14:25:10 MSK 2016  - NEW SESSION
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:97 - Class was created
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:102 - Starting the app
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:104 - Main window initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:106 - Buttons initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:108 - Toolbar initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:110 - Tabs initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:112 - Tables initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:114 - Search initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:819 - Wide search was updated!
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:118 - Action and listeners initialization
+11-12-16 14:25:12 [INFO ] [main] StudentsMain:123 - Loading and registering JDBC driver for mySQL 
+11-12-16 14:25:15 [INFO ] [AWT-EventQueue-0] StudentsMain:501 - Loading as xml - button pressed
+11-12-16 14:25:16 [INFO ] [AWT-EventQueue-0] StudentsMain:508 - Loading as xml - file is opened
+11-12-16 14:25:16 [INFO ] [AWT-EventQueue-0] StudentsMain:819 - Wide search was updated!
+11-12-16 14:25:16 [INFO ] [AWT-EventQueue-0] StudentsMain:563 - Loading as xml - file is closed
+11-12-16 14:25:35 [INFO ] [AWT-EventQueue-0] StudentsMain:701 - Creating pdf files - starting
+11-12-16 14:25:36 [INFO ] [AWT-EventQueue-0] StudentsMain:708 - Exception: net.sf.jasperreports.engine.JRException: java.io.FileNotFoundException: .\reports\report3.jasper
+11-12-16 14:25:37 [INFO ] [AWT-EventQueue-0] StudentsMain:714 - Creating pdf files - done
+
+=======================================================
+Sun Dec 11 14:28:05 MSK 2016  - NEW SESSION
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:97 - Class was created
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:102 - Starting the app
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:104 - Main window initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:106 - Buttons initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:108 - Toolbar initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:110 - Tabs initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:112 - Tables initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:114 - Search initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:818 - Wide search was updated!
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:118 - Action and listeners initialization
+11-12-16 14:28:07 [INFO ] [main] StudentsMain:123 - Loading and registering JDBC driver for mySQL 
+11-12-16 14:28:11 [INFO ] [AWT-EventQueue-0] StudentsMain:501 - Loading as xml - button pressed
+11-12-16 14:28:13 [INFO ] [AWT-EventQueue-0] StudentsMain:508 - Loading as xml - file is opened
+11-12-16 14:28:13 [INFO ] [AWT-EventQueue-0] StudentsMain:818 - Wide search was updated!
+11-12-16 14:28:13 [INFO ] [AWT-EventQueue-0] StudentsMain:563 - Loading as xml - file is closed
+11-12-16 14:28:48 [INFO ] [AWT-EventQueue-0] StudentsMain:700 - Creating pdf files - starting
+11-12-16 14:28:51 [INFO ] [AWT-EventQueue-0] StudentsMain:728 - Exporting D:\Programming\Project for work\UniReport.pdf - success
+11-12-16 14:28:51 [INFO ] [AWT-EventQueue-0] StudentsMain:707 - Exception: net.sf.jasperreports.engine.JRException: java.io.FileNotFoundException: file:\D:\Programming\Project%20for%20work\out\production\Project%20for%20work\reports\report5.jasper
+11-12-16 14:28:52 [INFO ] [AWT-EventQueue-0] StudentsMain:713 - Creating pdf files - done
+
+=======================================================
+Sun Dec 11 14:30:03 MSK 2016  - NEW SESSION
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:97 - Class was created
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:102 - Starting the app
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:104 - Main window initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:106 - Buttons initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:108 - Toolbar initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:110 - Tabs initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:112 - Tables initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:114 - Search initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:818 - Wide search was updated!
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:118 - Action and listeners initialization
+11-12-16 14:30:04 [INFO ] [main] StudentsMain:123 - Loading and registering JDBC driver for mySQL 
+11-12-16 14:30:05 [INFO ] [AWT-EventQueue-0] StudentsMain:501 - Loading as xml - button pressed
+11-12-16 14:30:08 [INFO ] [AWT-EventQueue-0] StudentsMain:508 - Loading as xml - file is opened
+11-12-16 14:30:08 [INFO ] [AWT-EventQueue-0] StudentsMain:818 - Wide search was updated!
+11-12-16 14:30:08 [INFO ] [AWT-EventQueue-0] StudentsMain:563 - Loading as xml - file is closed
+11-12-16 14:30:18 [INFO ] [AWT-EventQueue-0] StudentsMain:700 - Creating pdf files - starting
+11-12-16 14:30:19 [INFO ] [AWT-EventQueue-0] StudentsMain:728 - Exporting D:\Programming\Project for work\UniReport.pdf - success
+11-12-16 14:30:20 [INFO ] [AWT-EventQueue-0] StudentsMain:728 - Exporting D:\Programming\Project for work\StudReport.pdf - success
+11-12-16 14:30:20 [INFO ] [AWT-EventQueue-0] StudentsMain:713 - Creating pdf files - done

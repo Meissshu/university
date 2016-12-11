@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report5" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2e368dc6-9119-4191-bc3f-8594d3714fc5">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Times New Roman" fontSize="50" isBold="true" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="xPath">
+		<![CDATA[/appData/listOfStudents/student]]>
+	</queryString>
+	<field name="course" class="java.lang.String">
+		<fieldDescription><![CDATA[@course]]></fieldDescription>
+	</field>
+	<field name="firstName" class="java.lang.String">
+		<fieldDescription><![CDATA[@firstName]]></fieldDescription>
+	</field>
+	<field name="hull" class="java.lang.String">
+		<fieldDescription><![CDATA[@hull]]></fieldDescription>
+	</field>
+	<field name="lastName" class="java.lang.String">
+		<fieldDescription><![CDATA[@lastName]]></fieldDescription>
+	</field>
+	<field name="payTimeActual" class="java.lang.String">
+		<fieldDescription><![CDATA[@payTimeActual]]></fieldDescription>
+	</field>
+	<field name="payTimeArrangement" class="java.lang.String">
+		<fieldDescription><![CDATA[@payTimeArrangement]]></fieldDescription>
+	</field>
+	<field name="paymentStatus" class="java.lang.String">
+		<fieldDescription><![CDATA[@paymentStatus]]></fieldDescription>
+	</field>
+	<field name="room" class="java.lang.String">
+		<fieldDescription><![CDATA[@room]]></fieldDescription>
+	</field>
+	<field name="secondName" class="java.lang.String">
+		<fieldDescription><![CDATA[@secondName]]></fieldDescription>
+	</field>
+	<field name="uni" class="java.lang.String">
+		<fieldDescription><![CDATA[@uni]]></fieldDescription>
+	</field>
+	<group name="Group1">
+		<groupExpression><![CDATA[(int)($V{REPORT_COUNT}/15)]]></groupExpression>
+	</group>
+	<group name="Group2">
+		<groupExpression><![CDATA[(int)($V{REPORT_COUNT}/5)]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="136" splitType="Stretch">
+			<staticText>
+				<reportElement style="Title" x="170" y="0" width="263" height="62" uuid="3a7bc455-c07c-4a0c-809f-2efeb58bcd12"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Sans" pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[Отчет]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="SubTitle" x="219" y="62" width="196" height="22" uuid="686b5271-0d7f-4c31-9a3b-93ca1a654c31"/>
+				<textElement>
+					<font fontName="DejaVu Sans" pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[По студентам]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="-1" y="33" width="555" height="1" uuid="8d244ba0-1f84-44c4-a8d7-00bfddd7222e"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="1" width="59" height="20" uuid="33fc978e-818f-4c9f-82bf-fef679d40e0b"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Фамилия]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="64" y="1" width="54" height="20" uuid="28774530-8920-4f00-98de-6030d494eb9f"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Имя]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="121" y="2" width="70" height="20" uuid="d5b58f20-35c5-4078-984d-23c4563169f7"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Отчество]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="194" y="1" width="51" height="20" uuid="16571706-0df2-46e4-85ad-4190ae733a59"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Корпус]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="248" y="2" width="54" height="20" uuid="4833fce9-2d9e-4d89-9ec3-ce84755b4204"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Комната]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="347" y="2" width="30" height="20" uuid="12133f91-e2ee-489d-bf2a-51febb01f128"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Курс]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="305" y="2" width="40" height="20" uuid="8938b28d-d5e4-46a9-b5ac-238f822ce258"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ВУЗ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="2" width="56" height="31" uuid="10764b43-4b3d-4a0c-b1e6-63ad957bdf79"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Срок оплаты]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="438" y="2" width="60" height="31" uuid="8701b1b0-764a-4712-a1ce-dbaf6e7452f1"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Время оплаты]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="2" width="56" height="20" uuid="79b01800-0b81-42d0-834d-685b9a6470a8"/>
+				<textElement>
+					<font fontName="DejaVu Sans" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Статус]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="44" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="555" height="43" uuid="41d6bf34-588b-4474-b08a-fb973fd65d9e"/>
+				<line>
+					<reportElement x="0" y="42" width="554" height="1" uuid="211a6dbd-23ba-463f-9b36-613fddd25abc"/>
+					<graphicElement>
+						<pen lineWidth="1.5"/>
+					</graphicElement>
+				</line>
+			</frame>
+			<textField>
+				<reportElement x="0" y="5" width="59" height="20" uuid="09dc922e-46b1-43f1-b51d-8ef5ae2d0b76"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{firstName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="64" y="5" width="54" height="20" uuid="f7dc5caf-bc85-4aed-8f0a-89c0e20b933c"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{secondName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="121" y="5" width="70" height="20" uuid="3cfa5cf8-4ef5-46ab-8c33-76722aebea8f"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lastName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="194" y="5" width="51" height="20" uuid="7b198456-b961-40d6-867e-f79a92181289"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hull}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="248" y="5" width="54" height="20" uuid="6c37e73f-d649-444f-ba87-c4dba58f06a0"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{room}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="347" y="5" width="30" height="20" uuid="099aec70-5a01-4fd7-a34b-2f9ac3957e1f"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{course}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="302" y="5" width="43" height="20" uuid="58029342-2ecc-479c-bad4-b23213f13be8"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{uni}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="5" width="56" height="20" uuid="50651bca-5a48-41a7-b658-3a946cff1f92"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{payTimeArrangement}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="438" y="5" width="60" height="20" uuid="ac20957c-2f82-4ec6-a976-74f564980fde"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{payTimeActual}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="5" width="55" height="35" uuid="583ea590-28ae-472f-b3a0-af995bc0a159"/>
+				<textElement>
+					<font fontName="DejaVu Sans"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paymentStatus}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="9" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="597" height="24" forecolor="#D0B48E" backcolor="#F2EBDF" uuid="02a1b221-3ce4-439b-8365-1043944c58df"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="533" y="0" width="40" height="20" forecolor="#736343" uuid="0308235c-3abd-418c-a42f-73b035d087a0"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="453" y="0" width="80" height="20" forecolor="#736343" uuid="22fe8e57-08c4-42c2-95db-68bf1f5a3ff6"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="22" y="1" width="197" height="20" forecolor="#736343" uuid="6c576ffa-98f9-4d66-8896-8464ae3b3a1e"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="DejaVu Sans" size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
