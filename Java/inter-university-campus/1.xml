@@ -1,1 +1,19 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><appData><listOfStudents><student course="3" firstName="Аллаяров" hull="4" lastName="Фанисович" payTimeActual="15.12.16" payTimeArrangement="01.01.17" paymentStatus="Оплачено" room="84" secondName="Марсель" uni="ЛЭТИ"/><student course="3" firstName="Алтухов" hull="0" lastName="-" payTimeActual="30.11.14" payTimeArrangement="01.01.17" paymentStatus="Не оплачено" room="89" secondName="Никита" uni="ЛЭТИ"/><student course="2" firstName="Ретинов" hull="11" lastName="Георгиевич" payTimeActual="06.12.16" payTimeArrangement="05.12.16" paymentStatus="Просрочено" room="45" secondName="Виктор" uni="ИТМО"/><student course="4" firstName="Безопасных" hull="7" lastName="Владимирович" payTimeActual="16.11.16" payTimeArrangement="12.12.16" paymentStatus="Оплачено" room="99" secondName="Андрей" uni="Горный"/><student course="2" firstName="Жориков" hull="1" lastName="Павлович" payTimeActual="07.12.16" payTimeArrangement="07.12.16" paymentStatus="Оплачено" room="12" secondName="Георгий" uni="ВШЭ"/><student course="0" firstName="Чухрова" hull="0" lastName="Петровна" payTimeActual="01.01.01" payTimeArrangement="01.01.01" paymentStatus="Оплачено" room="0" secondName="Ольга" uni="&lt;пусто&gt;"/></listOfStudents><listOfUniversities><uni longName="СПбГЭТУ ЛЭТИ" shortName="ЛЭТИ"/><uni longName="САНКТ-ПЕТЕРБУРГСКИЙ НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ  ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ, МЕХАНИКИ И ОПТИКИ" shortName="ИТМО"/><uni longName="Университет добычи нефти и газа" shortName="Горный"/><uni longName="Московский государственный университет" shortName="МГУ"/><uni longName="Высшая школа экономики" shortName="ВШЭ"/><uni longName="Московский энергетический университет" shortName="МЭИ"/></listOfUniversities></appData>
+<?xml version="1.0" encoding="UTF-8"?>
+<appData>
+  <listOfStudents>
+    <student course="3" firstName="Аллаяров" hull="4" lastName="Фанисович" payTimeActual="15.12.16" payTimeArrangement="01.01.17" paymentStatus="Оплачено" room="84" secondName="Марсель" uni="ЛЭТИ"/>
+    <student course="3" firstName="Алтухов" hull="0" lastName="-" payTimeActual="30.11.14" payTimeArrangement="01.01.17" paymentStatus="Не оплачено" room="89" secondName="Никита" uni="ЛЭТИ"/>
+    <student course="2" firstName="Ретинов" hull="11" lastName="Георгиевич" payTimeActual="06.12.16" payTimeArrangement="05.12.16" paymentStatus="Просрочено" room="45" secondName="Виктор" uni="ИТМО"/>
+    <student course="4" firstName="Безопасных" hull="7" lastName="Владимирович" payTimeActual="16.11.16" payTimeArrangement="12.12.16" paymentStatus="Оплачено" room="99" secondName="Андрей" uni="Горный"/>
+    <student course="2" firstName="Жориков" hull="1" lastName="Павлович" payTimeActual="07.12.16" payTimeArrangement="07.12.16" paymentStatus="Оплачено" room="12" secondName="Георгий" uni="ВШЭ"/>
+    <student course="0" firstName="Чухрова" hull="0" lastName="Петровна" payTimeActual="01.01.01" payTimeArrangement="01.01.01" paymentStatus="Оплачено" room="0" secondName="Ольга" uni="&lt;пусто&gt;"/>
+  </listOfStudents>
+  <listOfUniversities>
+    <uni longName="СПбГЭТУ ЛЭТИ" shortName="ЛЭТИ"/>
+    <uni longName="САНКТ-ПЕТЕРБУРГСКИЙ НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ  ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ, МЕХАНИКИ И ОПТИКИ" shortName="ИТМО"/>
+    <uni longName="Университет добычи нефти и газа" shortName="Горный"/>
+    <uni longName="Московский государственный университет" shortName="МГУ"/>
+    <uni longName="Высшая школа экономики" shortName="ВШЭ"/>
+    <uni longName="Московский энергетический университет" shortName="МЭИ"/>
+  </listOfUniversities>
+</appData>
